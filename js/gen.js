@@ -17,7 +17,7 @@ function generare() {
           i--;
         }
       }
-	  document.getElementById("demo").innerHTML +="Ati generat rezultatele" + " #"+x+"<br>";
+	  document.getElementById("demo").innerHTML +="Ați generat rezultatele" + " #"+x+"<br>";
 	  x++;
 	  for(let i= 0; i < toReturn.length; i++) {
 	  	document.getElementById("demo").innerHTML +="Premiul "+(i+1)+" — " + toReturn[i] + "<br>";
