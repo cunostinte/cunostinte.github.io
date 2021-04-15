@@ -8,7 +8,7 @@ input[type=button]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: serif;
+  font-size: 4;
 }
 input[type=textarea]{
   width: 90%;
@@ -22,10 +22,11 @@ input[type=textarea]{
 }
 p{
   color: white;
+  font-size: 4;
 }
 label{
   color: white;
-  font-family: serif;
+font-size: 4;
 }
 #back{
   display: inline-block;
@@ -53,7 +54,7 @@ input[type=text] {
   box-sizing: border-box;
   color:white;
   background-color: blue;
-
+font-size: 4;
 }
 div.cnt1{
  background-image: radial-gradient(circle, red, green, blue);
@@ -65,7 +66,7 @@ div.cnt1{
  border-radius: 10px ;
  padding-left: 2%;
  padding: 2px;
-
+font-size: 4;
 margin:10px;
 margin-left: 30%;
 margin-top: 20px;
@@ -97,6 +98,7 @@ margin:10px;
 margin-left: 30%;
 margin-top: 20px;
 text-shadow: 1px 1px 2px red, 0 0 25px red, 0 0 5px darkred;
+font-size: 4;
 }
 
 .pd {
@@ -111,4 +113,5 @@ text-shadow: 1px 1px 2px red, 0 0 25px red, 0 0 5px darkred;
   	text-align: center;
   	bottom: 0px;
   	width: 100%;
+    font-size: 4;
 }
