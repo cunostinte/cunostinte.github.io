@@ -29,6 +29,20 @@ label{
   color: white;
   font-family: cursive;
 }
+#back{
+  display: inline-block;
+  padding: 2px;
+  background-color : darkblue;
+  border: 1px solid white;
+animation: animated-border 1.5s infinite;
+border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+}
+a{
+  text-decoration: none;
+  color:white;
+  text-decoration: none;
+  font-family: cursive;
+}
 body{
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
