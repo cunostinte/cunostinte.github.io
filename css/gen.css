@@ -8,7 +8,7 @@ input[type=button]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: cursive;
+  font-family: serif;
 }
 input[type=textarea]{
   width: 90%;
@@ -19,11 +19,9 @@ input[type=textarea]{
   box-sizing: border-box;
   color:white;
   background-color: darkblue;
-  font-family: cursive;
 }
 p{
   color: white;
-  font-family: serif;
 }
 label{
   color: white;
@@ -41,7 +39,7 @@ a{
   text-decoration: none;
   color:white;
   text-decoration: none;
-  font-family: cursive;
+  font-family: serif;
 }
 body{
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
@@ -55,7 +53,7 @@ input[type=text] {
   box-sizing: border-box;
   color:white;
   background-color: blue;
-  font-family: cursive;
+
 }
 div.cnt1{
  background-image: radial-gradient(circle, red, green, blue);
