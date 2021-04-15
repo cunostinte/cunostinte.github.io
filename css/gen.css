@@ -8,7 +8,7 @@ input[type=button]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  font-size: 7;
+  font-size: 5;
 }
 input[type=textarea]{
   width: 90%;

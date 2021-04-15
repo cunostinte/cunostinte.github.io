@@ -9,7 +9,7 @@ function generare() {
 
       for(; i <= len; i++) {
         var randomInt = Math.floor(Math.random() * (max-min+1) + min);
-		
+
         if(tempObj['key_'+ randomInt] === undefined) {
           tempObj['key_'+ randomInt] = randomInt;
           toReturn.push(randomInt);
@@ -17,11 +17,11 @@ function generare() {
           i--;
         }
       }
-	  document.getElementById("demo").innerHTML +="Ați generat rezultatele" + " #"+x+"<br>";
+	  document.getElementById("demo").innerHTML +="Ati generat rezultatele" + " #"+x+"<br>";
 	  x++;
 	  for(let i= 0; i < toReturn.length; i++) {
-	  	document.getElementById("demo").innerHTML +="Premiul "+(i+1)+" — " + toReturn[i] + "<br>"; 
-		
+	  	document.getElementById("demo").innerHTML +="Premiul "+(i+1)+" — " + toReturn[i] + "<br>";
+
 }
 document.getElementById("demo").innerHTML +="<hr>" + "<br>";
 toReturn = [];
