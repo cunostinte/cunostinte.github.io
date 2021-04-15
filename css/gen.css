@@ -23,11 +23,11 @@ input[type=textarea]{
 }
 p{
   color: white;
-  font-family: cursive;
+  font-family: serif;
 }
 label{
   color: white;
-  font-family: cursive;
+  font-family: serif;
 }
 #back{
   display: inline-block;
